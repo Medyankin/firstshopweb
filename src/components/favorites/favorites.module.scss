@@ -1,0 +1,19 @@
+.section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 15px;
+    border: 10px solid #ee8f50;
+    border-top: 10px dashed #fff;
+}
+.sectionHeader {
+    text-align: center;
+    margin: 15px;
+}
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+}

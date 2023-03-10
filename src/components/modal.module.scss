@@ -1,0 +1,39 @@
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99998;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    //visibility: hidden;
+    //opacity: 0;
+    //transition: opacity 0.4s visibility 0.4s;
+    /*.open {
+        visibility: visible;
+        opacity: 1;
+    }*/
+}
+.modalBox {
+    max-width: 500px;
+    padding: 45px;
+    z-index: 1;
+    background-color: #fff;
+    border: 5px solid #ee8f50;
+    margin: 30px 15px;
+    box-shadow: 10px 10px 0px 0px rgba(34, 60, 80, 0.2);
+    transform: scale(1);
+    /*.modalBox {
+        transition: transform 0.8s;
+    }*/
+}
+.close {
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

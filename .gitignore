@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#ignore folders and files
+drawer/
+body/
+.SneakersFemale.jsx
